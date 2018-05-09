@@ -16,4 +16,10 @@
 
         Return View()
     End Function
+
+    Function Testando() As ActionResult
+        ViewData("Message") = "Your contact page."
+
+        Return View()
+    End Function
 End Class
